@@ -59,7 +59,7 @@
     }
     #menu-span{
         display: flex;
-        z-index: 3;
+        z-index: 1000;
     }
     body.active #menu-span{
         position: fixed;
@@ -70,7 +70,7 @@
     }
     #menu{
         position: fixed;
-        z-index: 2;
+        z-index: 100;
         top: 0;
         height: 100vh;
     }
@@ -87,10 +87,13 @@
         width: 50%;
     }
     .renesans-box a{
-        font-size: 2vw;
+        font-size: 3vh;
     }
     #renesans button{
-        font-size: 2vw;
+        font-size: 2vh;
+    }
+    main{
+        padding-top: 100px;
     }
 }
 @media screen and (max-width: 700px){
@@ -133,5 +136,22 @@
     }
     .renesans-box img{
         height: 50vw;
+    }
+    .tarmoqlar{
+        justify-content: center;
+    }
+    .tarmoq-box{
+        width: 90%;
+    }
+    .tarmoq-txt a{
+        font-size: 35px;
+    }
+    .tarmoq-txt p{
+        width: 80%;
+    }
+    .footer-nav{
+        justify-content: space-around;
+        text-align: center;
+        gap: 20px;
     }
 }
