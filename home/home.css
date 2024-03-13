@@ -229,7 +229,7 @@ body.active #menu-span span:nth-child(2){
     gap: 1vw;
 }
 .news-box{
-    background-color: #212529;
+    background-image: url(./home-img/guvohman-bg.png);
     width: 20vw;
     display: flex;
     flex-direction: column;
@@ -294,4 +294,17 @@ body.active #menu-span span:nth-child(2){
 }
 .renesans-box a:hover{
     text-decoration-line: underline;
+}
+#renesans button{
+    color: #fff;
+    background-color: #5dca0d;
+    border-color: #5dca0d;
+    font-weight: 600;
+    font-size: 1vw;
+    text-transform: uppercase;
+    padding: .2em .7em;
+    cursor: pointer;
+    border: none;
+    display: block;
+    margin: 0 auto;
 }

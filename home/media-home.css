@@ -83,6 +83,15 @@
     .nav_bar img{
         width: 100px;
     }
+    .renesans-box{
+        width: 50%;
+    }
+    .renesans-box a{
+        font-size: 2vw;
+    }
+    #renesans button{
+        font-size: 2vw;
+    }
 }
 @media screen and (max-width: 700px){
     .nav_bar h1{
@@ -115,5 +124,14 @@
         align-items: center;
         text-align: center;
         gap: 10px;
+    }
+    .renesans-boxes{
+        flex-direction: column;
+    }
+    .renesans-box{
+        width: 100%;
+    }
+    .renesans-box img{
+        height: 50vw;
     }
 }
